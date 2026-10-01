@@ -1,0 +1,41 @@
+# ==========================================
+# 1. Unity標準の不要ファイル（絶対に除外するもの）
+# ==========================================
+[L.l]ibrary/
+[T.t]emp/
+[O.o]bj/
+[B.b]uild/
+[B.b]uilds/
+[L.l]ogs/
+[U.u]ser[S.s]ettings/
+[M.m]emory[C.c]aptures/
+
+# Visual Studio / VS Code / Rider 等の設定ファイル
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+Assets/1.backup.unity
+Assets/1.backup.unity.meta
+Assets/Images/
+Assets/Fonts/
+Assets/Scenes/main.unity
+Assets/Scenes/MainScene.unity
+Assets/Scenes/SampleScene.unity
+
+Assets/Images.meta
+Assets/Fonts.meta
+Assets/Scenes/main.unity.meta
+Assets/Scenes/MainScene.unity.meta
+Assets/Scenes/SampleScene.unity.meta
+
+
+# ビルド出力フォルダ
+WindowsRelease_ver.0/
+WindowsRelease_ver.1/
